@@ -1,0 +1,7 @@
+# macOS
+.DS_Store
+
+# Do NOT sync work-specific or sensitive configs
+git/
+ssh/
+.gitconfig*
