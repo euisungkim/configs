@@ -5,21 +5,23 @@ Personal configuration files.
 ## Setup
 
 ```bash
-git clone git@github.com-personal:euisungkim/configs.git ~/configs
+git clone git@github.com-personal:euisungkim/configs.git ~/personal/configs
 ```
 
-Then create symlinks as needed:
+Then create symlinks:
 
 ```bash
-# Example: symlink zsh config
-ln -sf ~/configs/.zshrc ~/.zshrc
-
-# Example: symlink nvim config
-ln -sf ~/configs/nvim ~/.config/nvim
+# Neovim
+ln -sf ~/personal/configs/nvim ~/.config/nvim
 ```
+
+## What's included
+
+- `nvim/` - Neovim configuration
 
 ## What's NOT synced
 
+- Shell configs (`.zshrc`, `.bashrc`) - work-specific
 - Git configs (`.gitconfig*`) - kept local due to work/personal split
 - SSH configs - machine-specific and sensitive
 - Any work-specific configurations
