@@ -13,11 +13,15 @@ Then create symlinks:
 ```bash
 # Neovim
 ln -sf ~/personal/configs/nvim ~/.config/nvim
+
+# Claude status line
+ln -sf ~/personal/configs/claude/statusline-daily-cost.sh ~/.claude/statusline-daily-cost.sh
 ```
 
 ## What's included
 
 - `nvim/` - Neovim configuration
+- `claude/` - Claude Code status line script
 
 ## What's NOT synced
 
