@@ -18,14 +18,14 @@ ln -sf ~/personal/configs/nvim ~/.config/nvim
 ln -sf ~/personal/configs/claude/statusline-daily-cost.sh ~/.claude/statusline-daily-cost.sh
 
 # Wezterm
-ln -sf ~/personal/configs/.wezterm.lua ~/.wezterm.lua
+ln -sf ~/personal/configs/wezterm/.wezterm.lua ~/.wezterm.lua
 ```
 
 ## What's included
 
 - `nvim/` - Neovim configuration
 - `claude/` - Claude Code status line script
-- `.wezterm.lua` - Wezterm terminal configuration
+- `wezterm/` - Wezterm terminal configuration
 
 ## What's NOT synced
 
