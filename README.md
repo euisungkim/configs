@@ -19,6 +19,10 @@ ln -sf ~/personal/configs/claude/statusline-daily-cost.sh ~/.claude/statusline-d
 
 # Wezterm
 ln -sf ~/personal/configs/wezterm/.wezterm.lua ~/.wezterm.lua
+
+# Zsh (optional - copy and customize for your machine)
+cp ~/personal/configs/.zshrc.template ~/.zshrc
+# Then edit ~/.zshrc to add machine-specific configs
 ```
 
 ## What's included
@@ -26,11 +30,12 @@ ln -sf ~/personal/configs/wezterm/.wezterm.lua ~/.wezterm.lua
 - `nvim/` - Neovim configuration
 - `claude/` - Claude Code status line script
 - `wezterm/` - Wezterm terminal configuration
+- `.zshrc.template` - Zsh configuration template (oh-my-zsh + powerlevel10k)
 - `agents/` - Documentation for AI agents (GitHub setup, context)
 
 ## What's NOT synced
 
-- Shell configs (`.zshrc`, `.bashrc`) - work-specific
+- Shell configs (`.zshrc`) - use `.zshrc.template` as starting point, then customize per machine
 - Git configs (`.gitconfig*`) - kept local due to work/personal split
 - SSH configs - machine-specific and sensitive
 - Any work-specific configurations
