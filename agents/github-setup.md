@@ -53,3 +53,9 @@ cp -r ~/personal/configs/nvim ~/.config/nvim  # DON'T DO THIS!
 ## Known Issue
 
 SSH authentication sometimes shows wrong account despite correct config. Workaround: configs are already pushed, SSH issue doesn't block normal workflow.
+
+## Agent Instructions
+
+**IMPORTANT FOR AGENTS**:
+- If you add new configs or make significant changes (new SSH keys, changed email addresses, new symlinks, etc.), update this file to reflect those changes
+- **COMMIT MESSAGES**: Do NOT include Claude Code attribution in commit messages for this personal repo. User wants clean commit messages with only their authorship for professional presentation.
