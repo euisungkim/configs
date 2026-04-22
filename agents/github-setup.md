@@ -34,7 +34,7 @@ ln -sf ~/personal/configs/claude/statusline-daily-cost.sh ~/.claude/statusline-d
 ln -sf ~/personal/configs/wezterm/.wezterm.lua ~/.wezterm.lua
 
 # Zsh - COPY template, then customize:
-cp ~/personal/configs/.zshrc.template ~/.zshrc
+cp ~/personal/configs/zsh/.zshrc.template ~/.zshrc
 # Edit ~/.zshrc to add machine-specific configs (work tools, VPN, etc.)
 
 # Wrong (copy for configs that should be symlinked):
