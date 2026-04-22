@@ -1,0 +1,49 @@
+# GitHub Dual Account Setup
+
+## SSH Configuration
+
+**Personal Account:** `euisungkim`
+- SSH Key: `~/.ssh/id_ed25519_personal_final`
+- Fingerprint: `SHA256:MYnKirxwVMm8zcSxnQQtV4m6cVYtQU9uyVoYP7QbzUA`
+- Host alias: `git@github.com-personal:euisungkim/repo.git`
+
+**Work Account:** [REDACTED]
+- SSH Key: `~/.ssh/id_rsa`
+- Fingerprint: [REDACTED]
+- Host alias: `git@github.com:[WORK_ORG]/repo.git` (default)
+
+## Git Configuration
+
+- **Work repos** (`~/work/` or default): Uses work email
+- **Personal repos** (`~/personal/`): Uses `danielkim.learns@gmail.com`
+- GPG signing: Enabled for work
+
+## Dotfiles Repository
+
+- Location: `~/personal/configs/`
+- Remote: `git@github.com-personal:euisungkim/configs.git`
+- Public repo: https://github.com/euisungkim/configs
+- Contains: neovim config, Claude status line script, wezterm config
+- Does NOT contain: work-specific configs, SSH keys, shell configs
+
+**IMPORTANT:** Use SYMLINKS, not copies!
+```bash
+# Correct (symlink):
+ln -sf ~/personal/configs/nvim ~/.config/nvim
+ln -sf ~/personal/configs/claude/statusline-daily-cost.sh ~/.claude/statusline-daily-cost.sh
+ln -sf ~/personal/configs/wezterm/.wezterm.lua ~/.wezterm.lua
+
+# Wrong (copy):
+cp -r ~/personal/configs/nvim ~/.config/nvim  # DON'T DO THIS!
+```
+
+## Important Files (NOT synced)
+
+- `~/.zshrc` - Work-specific (VPN, gcloud, work aliases)
+- `~/.gitconfig*` - Git configs with work/personal split
+- `~/.ssh/config` - SSH configuration with dual GitHub setup
+- `~/.ssh/id_*` - SSH keys (never sync!)
+
+## Known Issue
+
+SSH authentication sometimes shows wrong account despite correct config. Workaround: configs are already pushed, SSH issue doesn't block normal workflow.

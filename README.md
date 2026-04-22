@@ -26,6 +26,7 @@ ln -sf ~/personal/configs/wezterm/.wezterm.lua ~/.wezterm.lua
 - `nvim/` - Neovim configuration
 - `claude/` - Claude Code status line script
 - `wezterm/` - Wezterm terminal configuration
+- `agents/` - Documentation for AI agents (GitHub setup, context)
 
 ## What's NOT synced
 
