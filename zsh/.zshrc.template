@@ -128,6 +128,9 @@ alias zj="zellij"
 # GPG alias
 alias gpg2="gpg"
 
+# Default Claude Code model
+export ANTHROPIC_MODEL=claude-opus-4-6
+
 # use sed as gnu-sed
 PATH="/opt/homebrew/opt/gnu-sed/libexec/gnubin:$PATH"
 
