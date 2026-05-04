@@ -33,6 +33,7 @@ ln -sf ~/personal/configs/nvim ~/.config/nvim
 ln -sf ~/personal/configs/claude/statusline-daily-cost.sh ~/.claude/statusline-daily-cost.sh
 ln -sf ~/personal/configs/wezterm/.wezterm.lua ~/.wezterm.lua
 ln -sf ~/personal/configs/zellij/config.kdl ~/.config/zellij/config.kdl
+ln -sf ~/personal/configs/zellij/layouts/default.kdl ~/.config/zellij/layouts/default.kdl
 
 # Zsh - COPY template, then customize:
 cp ~/personal/configs/zsh/.zshrc.template ~/.zshrc
