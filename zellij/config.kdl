@@ -218,4 +218,8 @@ plugins {
     }
     configuration location="zellij:configuration"
     plugin-manager location="zellij:plugin-manager"
+    monocle location="file:~/.config/zellij/plugins/monocle.wasm"
+    zellij-jump-list location="file:~/.config/zellij/plugins/zellij-jump-list.wasm"
+    zellij-forgot location="file:~/.config/zellij/plugins/zellij_forgot.wasm"
+    zj-git-branch location="file:~/.config/zellij/plugins/zj-git-branch.wasm"
 }

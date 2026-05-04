@@ -35,6 +35,10 @@ ln -sf ~/personal/configs/wezterm/.wezterm.lua ~/.wezterm.lua
 ln -sf ~/personal/configs/zellij/config.kdl ~/.config/zellij/config.kdl
 ln -sf ~/personal/configs/zellij/layouts/default.kdl ~/.config/zellij/layouts/default.kdl
 ln -sf ~/personal/configs/zellij/plugins/zjstatus.wasm ~/.config/zellij/plugins/zjstatus.wasm
+ln -sf ~/personal/configs/zellij/plugins/monocle.wasm ~/.config/zellij/plugins/monocle.wasm
+ln -sf ~/personal/configs/zellij/plugins/zellij-jump-list.wasm ~/.config/zellij/plugins/zellij-jump-list.wasm
+ln -sf ~/personal/configs/zellij/plugins/zellij_forgot.wasm ~/.config/zellij/plugins/zellij_forgot.wasm
+ln -sf ~/personal/configs/zellij/plugins/zj-git-branch.wasm ~/.config/zellij/plugins/zj-git-branch.wasm
 
 # Zsh - COPY template, then customize:
 cp ~/personal/configs/zsh/.zshrc.template ~/.zshrc
