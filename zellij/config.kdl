@@ -162,8 +162,9 @@ keybinds {
         bind "Space" { NextSwapLayout; }
         bind "x" { CloseFocus; SwitchToMode "Normal"; }
         bind "f" {
-            NewFloatingPane {
+            NewPane "Down" {
                 command "fzf"
+                floating true
             };
             SwitchToMode "Normal"
         }
