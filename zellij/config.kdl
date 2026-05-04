@@ -161,12 +161,6 @@ keybinds {
         bind "d" { Detach; }
         bind "Space" { NextSwapLayout; }
         bind "x" { CloseFocus; SwitchToMode "Normal"; }
-        bind "f" {
-            NewPane floating=true {
-                command "fzf"
-            };
-            SwitchToMode "Normal"
-        }
         bind "g" {
             LaunchOrFocusPlugin "zellij-jump-list" {
                 floating true
