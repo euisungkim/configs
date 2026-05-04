@@ -1,6 +1,5 @@
 mouse_mode true
 simplified_ui true
-default_mode "locked"
 scroll_buffer_size 10000
 
 keybinds {
