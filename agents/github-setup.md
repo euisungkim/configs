@@ -34,6 +34,7 @@ ln -sf ~/personal/configs/claude/statusline-daily-cost.sh ~/.claude/statusline-d
 ln -sf ~/personal/configs/wezterm/.wezterm.lua ~/.wezterm.lua
 ln -sf ~/personal/configs/zellij/config.kdl ~/.config/zellij/config.kdl
 ln -sf ~/personal/configs/zellij/layouts/default.kdl ~/.config/zellij/layouts/default.kdl
+ln -sf ~/personal/configs/zellij/plugins/zjstatus.wasm ~/.config/zellij/plugins/zjstatus.wasm
 
 # Zsh - COPY template, then customize:
 cp ~/personal/configs/zsh/.zshrc.template ~/.zshrc
