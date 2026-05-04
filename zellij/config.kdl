@@ -1,6 +1,6 @@
 mouse_mode true
 simplified_ui false
-pane_frames true
+pane_frames false
 scroll_buffer_size 10000
 
 keybinds {
