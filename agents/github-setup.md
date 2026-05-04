@@ -23,7 +23,7 @@
 - Location: `~/personal/configs/`
 - Remote: `git@github.com-personal:euisungkim/configs.git`
 - Public repo: https://github.com/euisungkim/configs
-- Contains: neovim config, Claude status line script, wezterm config, zsh template
+- Contains: neovim config, Claude status line script, wezterm config, zellij config, zsh template
 - Does NOT contain: work-specific configs, SSH keys, actual .zshrc (only template)
 
 **IMPORTANT:** Use SYMLINKS, not copies!
@@ -32,6 +32,7 @@
 ln -sf ~/personal/configs/nvim ~/.config/nvim
 ln -sf ~/personal/configs/claude/statusline-daily-cost.sh ~/.claude/statusline-daily-cost.sh
 ln -sf ~/personal/configs/wezterm/.wezterm.lua ~/.wezterm.lua
+ln -sf ~/personal/configs/zellij/config.kdl ~/.config/zellij/config.kdl
 
 # Zsh - COPY template, then customize:
 cp ~/personal/configs/zsh/.zshrc.template ~/.zshrc

@@ -20,6 +20,9 @@ ln -sf ~/personal/configs/claude/statusline-daily-cost.sh ~/.claude/statusline-d
 # Wezterm
 ln -sf ~/personal/configs/wezterm/.wezterm.lua ~/.wezterm.lua
 
+# Zellij
+ln -sf ~/personal/configs/zellij/config.kdl ~/.config/zellij/config.kdl
+
 # Zsh (optional - copy and customize for your machine)
 cp ~/personal/configs/zsh/.zshrc.template ~/.zshrc
 # Then edit ~/.zshrc to add machine-specific configs
@@ -31,6 +34,7 @@ cp ~/personal/configs/zsh/.zshrc.template ~/.zshrc
 - `claude/` - Claude Code status line script
 - `wezterm/` - Wezterm terminal configuration
 - `zsh/` - Zsh configuration template (oh-my-zsh + powerlevel10k)
+- `zellij/` - Zellij terminal multiplexer configuration
 - `agents/` - Documentation for AI agents (GitHub setup, context)
 
 ## What's NOT synced
