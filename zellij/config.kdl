@@ -162,9 +162,8 @@ keybinds {
         bind "Space" { NextSwapLayout; }
         bind "x" { CloseFocus; SwitchToMode "Normal"; }
         bind "f" {
-            LaunchOrFocusPlugin "monocle" {
-                floating true
-                move_to_focused_tab true
+            NewFloatingPane {
+                command "fzf"
             };
             SwitchToMode "Normal"
         }
